@@ -19,13 +19,14 @@ export const TopNavBar = () => {
     >
       <div className="flex h-10 w-full items-center justify-between">
         <Link href="/">
-          <span className="sr-only">OpenResume</span>
-          <Image
+          <div>Echo</div>
+          <span className="sr-only">Echo</span>
+          {/* <Image
             src={logoSrc}
             alt="OpenResume Logo"
             className="h-8 w-full"
             priority
-          />
+          /> */}
         </Link>
         <nav
           aria-label="Site Nav Bar"
@@ -43,7 +44,7 @@ export const TopNavBar = () => {
               {text}
             </Link>
           ))}
-          <div className="ml-1 mt-1">
+          {/* <div className="ml-1 mt-1">
             <iframe
               src="https://ghbtns.com/github-btn.html?user=xitanggg&repo=open-resume&type=star&count=true"
               width="100"
@@ -51,7 +52,7 @@ export const TopNavBar = () => {
               className="overflow-hidden border-none"
               title="GitHub"
             />
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>
