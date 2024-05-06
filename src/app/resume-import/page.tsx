@@ -17,7 +17,7 @@ export default function ImportResume() {
 
   return (
     <main>
-      <div className="mx-auto mt-14 max-w-3xl rounded-md border border-gray-200 px-10 py-10 text-center shadow-md">
+      <div className="mx-auto mt-14 max-w-3xl rounded-md border bg-gray-300 border-gray-200 px-10 py-10 text-center shadow-md">
         {!hasUsedAppBefore ? (
           <>
             <h1 className="text-lg font-semibold text-gray-900">

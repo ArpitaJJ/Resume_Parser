@@ -13,13 +13,14 @@ export const TopNavBar = () => {
     <header
       aria-label="Site Header"
       className={cx(
-        "flex h-[var(--top-nav-bar-height)] items-center border-b-2 border-gray-100 px-3 lg:px-12",
+        "flex h-[var(--top-nav-bar-height)] items-center bg-gray-500 px-3 lg:px-12",
         isHomePage && "bg-dot"
       )}
     >
-      <div className="flex h-10 w-full items-center justify-between">
+      <div className="flex h-10 w-full items-center justify-between text-white text-lg font-bold" style={{ color: "##00FFFF" }}
+>
         <Link href="/">
-          <div>Echo</div>
+          <div className="text-primary text-2xl">Echo</div>
           <span className="sr-only">Echo</span>
           {/* <Image
             src={logoSrc}
@@ -38,7 +39,7 @@ export const TopNavBar = () => {
           ].map(([href, text]) => (
             <Link
               key={text}
-              className="rounded-md px-1.5 py-2 text-gray-500 hover:bg-gray-100 focus-visible:bg-gray-100 lg:px-4"
+              className="rounded-md px-1.5 py-2 text-blue-200 hover:text-blue-500 hover:bg-blue-100 focus-visible:bg-blue-100 lg:px-4"
               href={href}
             >
               {text}

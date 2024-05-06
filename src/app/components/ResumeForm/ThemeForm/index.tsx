@@ -43,7 +43,7 @@ export const ThemeForm = () => {
             value={settings.themeColor}
             placeholder={DEFAULT_THEME_COLOR}
             onChange={handleSettingsChange}
-            inputStyle={{ color: themeColor }}
+            inputStyle={{ color: themeColor }} 
           />
           <div className="mt-2 flex flex-wrap gap-2">
             {THEME_COLORS.map((color, idx) => (

@@ -12,10 +12,10 @@ export const END_HOME_RESUME: Resume = {
     name: "Arpita Jena",
     summary:
       "Software engineer obsessed with building exceptional products that people love",
-    email: "hello@openresume.com",
-    phone: "123-456-7890",
-    location: "NYC, NY",
-    url: "linkedin.com/in/arpita-jena",
+    email: "arpitajena210@gmail.com",
+    phone: "+91-9354515502",
+    location: "Lucknow, India",
+    url: "https://www.linkedin.com/in/arpita-jena-04a262215/",
   },
   workExperiences: [
     {
@@ -23,47 +23,43 @@ export const END_HOME_RESUME: Resume = {
       jobTitle: "Software Engineer",
       date: "May 2023 - Present",
       descriptions: [
-        "Lead a cross-functional team of 5 engineers in developing a search bar, which enables thousands of daily active users to search content across the entire platform",
-        "Create stunning home page product demo animations that drives up sign up rate by 20%",
-        "Write clean code that is modular and easy to maintain while ensuring 100% test coverage",
+        "Pseudo work history to be displayed here"
       ],
     },
     {
-      company: "DEF Organization",
+      company: "XYZ Organization",
       jobTitle: "Software Engineer Intern",
       date: "Summer 2022",
       descriptions: [
-        "Re-architected the existing content editor to be mobile responsive that led to a 10% increase in mobile user engagement",
-        "Created a progress bar to help users track progress that drove up user retention by 15%",
-        "Discovered and fixed 5 bugs in the existing codebase to enhance user experience",
+        "Pseudo work history to be displayed here"
       ],
     },
     {
-      company: "XYZ University",
-      jobTitle: "Research Assistant",
+      company: "Flipkart",
+      jobTitle: "SDE Intern",
       date: "Summer 2021",
       descriptions: [
-        "Devised a new NLP algorithm in text classification that results in 10% accuracy increase",
-        "Compiled and presented research findings to a group of 20+ faculty and students",
+        "Created Change Language Page to allow users to choose from different languages before logging onto Shopsy an e-commerce platform, also called the Vernacular API on the action of the Continue button to pass payload specific to a session/device as a API Contract to the back-end",
+        " Onboard-ed IRIS API that creates a directory specific to different locales containing key-value pairs of strings to be dynamically used throughout the code-base instead of hard-coded strings",
+        " Migrated SellerV2, NepCoupon, NetEffectivePrice widget to NextJS"
       ],
     },
   ],
   educations: [
     {
-      school: "XYZ University",
-      degree: "Bachelor of Science in Computer Science",
-      date: "Sep 2019 - May 2023",
-      gpa: "3.8",
+      school: "Indian Institute of Information Technology Lucknow",
+      degree: "Bachelor of Science in IT",
+      date: "Nov 2021 - May 2025",
+      gpa: "8.65",
       descriptions: [
-        "Won 1st place in 2022 Education Hackathon, 2nd place in 2023 Health Tech Competition",
         "Teaching Assistant for Programming for the Web (2022 - 2023)",
-        "Coursework: Object-Oriented Programming (A+), Programming for the Web (A+), Cloud Computing (A), Introduction to Machine Learning (A-), Algorithms Analysis (A-)",
+        "Coursework: Object-Oriented Programming (A+), Cryptography (A+), Cloud Computing (A), Soft Computing (B+), AI for Arts (A)",
       ],
     },
   ],
   projects: [
     {
-      project: "OpenResume",
+      project: "Echo",
       date: "Spring 2023",
       descriptions: [
         "Created and launched a free resume builder web app that allows thousands of users to create professional resume easily and land their dream jobs",

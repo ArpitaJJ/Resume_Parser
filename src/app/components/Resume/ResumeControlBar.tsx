@@ -34,9 +34,9 @@ const ResumeControlBar = ({
   }, [update, document]);
 
   return (
-    <div className="sticky bottom-0 left-0 right-0 flex h-[var(--resume-control-bar-height)] items-center justify-center px-[var(--resume-padding)] text-gray-600 lg:justify-between">
+    <div className="sticky bg-gray-500 bottom-0 left-0 right-0 flex h-[var(--resume-control-bar-height)] items-center justify-center px-[var(--resume-padding)] text-gray-600 lg:justify-between">
       <div className="flex items-center gap-2">
-        <MagnifyingGlassIcon className="h-5 w-5" aria-hidden="true" />
+        <MagnifyingGlassIcon className="h-5 w-5 text-white" aria-hidden="true" />
         <input
           type="range"
           min={0.5}
@@ -48,7 +48,7 @@ const ResumeControlBar = ({
             setScale(Number(e.target.value));
           }}
         />
-        <div className="w-10">{`${Math.round(scale * 100)}%`}</div>
+        <div className="w-10 text-white">{`${Math.round(scale * 100)}%`}</div>
         <label className="hidden items-center gap-1 lg:flex">
           <input
             type="checkbox"
@@ -56,7 +56,7 @@ const ResumeControlBar = ({
             checked={scaleOnResize}
             onChange={() => setScaleOnResize((prev) => !prev)}
           />
-          <span className="select-none">Autoscale</span>
+          <span className="select-none text-white">Autoscale</span>
         </label>
       </div>
       <a
@@ -64,8 +64,8 @@ const ResumeControlBar = ({
         href={instance.url!}
         download={fileName}
       >
-        <ArrowDownTrayIcon className="h-4 w-4" />
-        <span className="whitespace-nowrap">Download Resume</span>
+        <ArrowDownTrayIcon className="h-4 w-4 text-white" />
+        <span className="whitespace-nowrap text-white">Download Resume</span>
       </a>
     </div>
   );

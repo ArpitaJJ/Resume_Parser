@@ -57,7 +57,7 @@ export const ResumeTable = ({ resume }: { resume: Resume }) => {
     skills.unshift(featuredSkills);
   }
   return (
-    <table className="mt-2 w-full border text-sm text-gray-900">
+    <table className="mt-2 w-full border text-sm bg-gray-800 text-blue-400">
       <tbody className="divide-y text-left align-top">
         <TableRowHeader>Profile</TableRowHeader>
         <TableRow label="Name" value={resume.profile.name} />

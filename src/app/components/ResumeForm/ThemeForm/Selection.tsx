@@ -65,7 +65,7 @@ const FontFamilySelections = ({
         return (
           <Selection
             key={idx}
-            selectedColor={themeColor}
+            selectedColor= {themeColor} 
             isSelected={isSelected}
             style={{
               fontFamily,

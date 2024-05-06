@@ -85,7 +85,7 @@ export const Form = ({
 
   return (
     <BaseForm
-      className={`transition-opacity duration-200 ${
+      className={`transition-opacity duration-200 bg-gray-800 ${
         showForm ? "pb-6" : "pb-2 opacity-60"
       }`}
     >
