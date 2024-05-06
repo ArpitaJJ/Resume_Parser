@@ -65,7 +65,7 @@ export default function ResumeParser() {
         <div className="flex px-6 text-white md:col-span-3 md:h-[calc(100vh-var(--top-nav-bar-height))] md:overflow-y-scroll">
           <FlexboxSpacer maxWidth={45} className="hidden md:block" />
           <section className="text-white max-w-[600px] grow">
-            <Heading className="text-blue-500 !mt-4">
+            <Heading className="text-blue-400 !mt-4">
               Resume Parser Playground
             </Heading>
             <Paragraph smallMarginTop={true} className="text-white">
