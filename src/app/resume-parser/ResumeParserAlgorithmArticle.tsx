@@ -103,7 +103,7 @@ export const ResumeParserAlgorithmArticle = ({
 
   return (
     <article className="mt-10">
-      <Heading className="text-primary !mt-0 border-t-2 pt-8">
+      <Heading className="text-orange-400 !mt-0 border-t-2 pt-8">
         Resume Parser Algorithm Deep Dive
       </Heading>
       <Paragraph smallMarginTop={true}>

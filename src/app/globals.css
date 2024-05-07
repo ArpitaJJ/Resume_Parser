@@ -5,8 +5,15 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary outline-theme-purple inline-block rounded-full px-6 py-2 font-semibold shadow-sm;
-  }
+    background-color: orange; /* Change background color to orange */
+    /* Add any other necessary styles */
+    outline: 2px solid orange; /* Add an orange outline */
+    display: inline-block;
+    border-radius: 9999px; /* Assuming you want a rounded shape */
+    padding: 6px 24px; /* Adjust padding as needed */
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  }  
   .text-primary {
     @apply bg-gradient-to-r from-[color:var(--theme-purple)] to-[color:var(--theme-blue)] bg-clip-text text-transparent !important;
   }

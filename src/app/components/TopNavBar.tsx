@@ -20,7 +20,7 @@ export const TopNavBar = () => {
       <div className="flex h-10 w-full items-center justify-between text-white text-lg font-bold" style={{ color: "##00FFFF" }}
 >
         <Link href="/">
-          <div className="text-primary text-2xl">Echo</div>
+          <div className="text-orange-400 text-2xl">Echo</div>
           <span className="sr-only">Echo</span>
           {/* <Image
             src={logoSrc}
