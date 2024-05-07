@@ -18,13 +18,13 @@ export const Hero = () => {
         <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
           Create Resume <span aria-hidden="true">→</span>
         </Link>
-        <p className="ml-6 mt-3 text-sm text-gray-300">No sign up required</p>
-        <p className="mt-3 text-sm text-gray-300 lg:mt-36">
+        {/* <p className="ml-6 mt-3 text-sm text-gray-300">No sign up required</p> */}
+        {/* <p className="mt-3 text-sm text-gray-300 lg:mt-36">
           Already have a resume? Test its ATS readability with the{" "}
           <Link href="/resume-parser" className="underline underline-offset-2">
             resume parser
           </Link>
-        </p>
+        </p> */}
       </div>
       <FlexboxSpacer maxWidth={100} minWidth={50} className="hidden lg:block" />
       <div className="mt-6 flex justify-center lg:mt-4 lg:block lg:grow">
